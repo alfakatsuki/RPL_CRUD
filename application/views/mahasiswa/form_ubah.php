@@ -20,7 +20,7 @@
   <body>
 
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <a class="navbar-brand" href="<?php echo base_url() ?>">CRUD-RPL</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -41,7 +41,7 @@
     
   </div>
 </nav>
-    
+
     <div class='container'>
 
     <h1 class="heading" style="margin-top: 50px;">Form Ubah Data Mahasiswa</h1>
@@ -77,10 +77,22 @@
       </table>
         
       <hr>
-      <button  type="submit" name="submit" value="ubah" class="btn btn-primary">Ubah</button>
+      <!-- <button  type="submit" name="submit" value="ubah" class="btn btn-primary">Ubah</button>
       <a href="<?php echo base_url(); ?>">
         <button type='button' class='btn btn-info'>Kembali</button>
       </a>
+       -->
+
+      <div class="btn-toolbar well" >
+        <div class="col-md-2">
+          <button  type="submit" name="submit" value="ubah" class="btn btn-primary btn-block">Simpan</button>
+        </div>
+        <div class="col-md-2">
+            <button href="<?php echo base_url(); ?>" type='button' class='btn btn-info btn-block'>Kembali</button>
+          </div>
+      </div>
+
+
     <?php echo form_close(); ?>
   </div>
 

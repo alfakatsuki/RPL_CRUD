@@ -19,8 +19,7 @@
 </head>
 <body>
 
-
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <a class="navbar-brand" href="<?php echo base_url() ?>">CRUD-RPL</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -47,8 +46,15 @@
     <hr>
     <div class="col-md-12" style="margin-top: 30px; ">
 
-      <a href='<?php echo base_url("mahasiswa/tambah"); ?>'>Tambah Data</a><br><br>
-      <table class="table table-striped">
+      <!-- <a href='<?php echo base_url("mahasiswa/tambah"); ?>'>Tambah Data</a> -->
+      <!-- <div class="col-md-2"> -->
+      <div>
+        <a href='<?php echo base_url("mahasiswa/tambah"); ?>'>
+          <button type='button' class='btn btn-info btn-block'>Tambah Data</button>
+        </a>
+      </div>
+      <br>
+      <table class="table table-hover">
         <thead>
           <tr class="info text-center">
             <th>Nim</th>

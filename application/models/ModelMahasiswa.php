@@ -12,7 +12,7 @@ class ModelMahasiswa extends CI_Model {
   public function validation($mode){
     $this->load->library('form_validation'); 
     if($mode == "save")
-      $this->form_validation->set_rules('input_nim', 'Nim', 'required');
+      $this->form_validation->set_rules('input_nim', 'Nim', 'required|is_unique[mahasiswa.nim]');
     
     $this->form_validation->set_rules('input_nama', 'Nama', 'required');
     $this->form_validation->set_rules('input_jeniskelamin', 'Jenis Kelamin', 'required');
