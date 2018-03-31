@@ -12,4 +12,4 @@ Tugas Rekayasa Perangkat Lunak - Membuat CRUD Sederhana Menggunakan CodeIgniter
 
 Hosted in 000webhostapp.com
 
-![Link](http://alfakatsukicrud.000webhostapp.com)
+[Link](http://alfakatsukicrud.000webhostapp.com)
