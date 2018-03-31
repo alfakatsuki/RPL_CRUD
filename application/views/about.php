@@ -51,7 +51,7 @@
     <div class="container-fluid bg-2 text-center">
       <h3 class="margin">Maulvi Alfansuri</h3>
        <img src="assets/img/ava.png" class="img-responsive img-circle margin" style="display:inline" alt="ava" width="200" height="200">
-
+       
     </div>
     <hr>
 
