@@ -27,17 +27,20 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
+      <li class="nav-item">
         <a class="nav-link" href="https://github.com/alfakatsuki">Github <span class="sr-only">(current)</span></a>
       </li>
         <a class="nav-link" href="https://maulvi-cs.blogspot.com">Blog</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
+        <a class="nav-link" href="about">About</a>
       </li>
-      <li class="nav-item">
     </ul>
-    
+    <form class="form-inline my-2 my-lg-0">
+      <a href="<?php echo base_url('login/logout'); ?>"><button class="btn btn-outline-info my-2 my-sm-0" type="button">Logout</button></a>
+    </form>
+
+
   </div>
 </nav>
 
@@ -46,6 +49,7 @@
     <hr>
     <div class="col-md-12" style="margin-top: 30px; ">
 
+      
       <!-- <a href='<?php echo base_url("mahasiswa/tambah"); ?>'>Tambah Data</a> -->
       <!-- <div class="col-md-2"> -->
       <div>
@@ -55,7 +59,7 @@
       </div>
       <br>
       <table class="table table-hover">
-        <thead>
+        <thead  class="thead-light">
           <tr class="info text-center">
             <th>Nim</th>
             <th>Nama</th>
@@ -94,6 +98,6 @@
 
   <script src="<?php echo base_url() ?>assets/js/jquery.min.js"></script>
   <script src="<?php echo base_url() ?>assets/js/bootstrap.min.js"></script>
-  </body>
-</div>
+  </div>
+</body>
 </html>

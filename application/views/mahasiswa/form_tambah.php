@@ -26,7 +26,7 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
+      <li class="nav-item">
         <a class="nav-link" href="https://github.com/alfakatsuki">Github <span class="sr-only">(current)</span></a>
       </li>
         <a class="nav-link" href="https://maulvi-cs.blogspot.com">Blog</a>
@@ -36,7 +36,9 @@
       </li>
       <li class="nav-item">
     </ul>
-    
+    <form class="form-inline my-2 my-lg-0">
+      <a href="<?php echo base_url('login/logout'); ?>"><button class="btn btn-outline-info my-2 my-sm-0" type="button">Logout</button></a>
+    </form>
   </div>
 </nav>
 
@@ -85,7 +87,7 @@
             <button  type="submit" name="submit" value="ubah" class="btn btn-primary btn-block">Simpan</button>
           </div>
           <div class="col-md-2">
-              <button href="<?php echo base_url(); ?>" type='button' class='btn btn-info btn-block'>Kembali</button>
+              <a href="<?php echo base_url(); ?>"><button type='button' class='btn btn-info btn-block'>Kembali</button></a>
             </div>
         </div>
 
